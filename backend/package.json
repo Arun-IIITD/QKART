@@ -1,0 +1,19 @@
+{
+    "name": "react-me-backend",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "@babel/core": "^7.17.10",
+        "@testing-library/dom": "^8.13.0",
+        "cors": "^2.8.5",
+        "dotenv": "^17.2.1",
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "nanoid": "^3.1.12",
+        "nedb": "^1.8.0",
+        "typescript": "^3.2.1"
+    }
+}
