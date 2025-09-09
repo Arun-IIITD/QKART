@@ -32,12 +32,17 @@
   "jest": {
     "resetMocks": false
   },
+
   "scripts": {
-       "start": "react-scripts --openssl-legacy-provider start",
-     "build": "react-scripts --openssl-legacy-provider build",
-    "test": "git config --local merge.autoselect-nonempty.driver 'chmod +x __CRIO__/merge_drivers/autoselect-nonempty && __CRIO__/merge_drivers/autoselect-nonempty %O %A %B %P' && react-scripts test --json --outputFile=testReport.json --watchAll=false",
-    "eject": "react-scripts eject"
-  },
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test"
+},
+
+  
+
+
+  
   "eslintConfig": {
     "extends": [
       "react-app",
