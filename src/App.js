@@ -11,7 +11,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 
 export const config = {
-  endpoint: `http://${ipConfig.workspaceIp}:8082/api/v1`,
+  endpoint: ` https://qkart-2-cy24.onrender.com/api/v1`,
 };
 
 
